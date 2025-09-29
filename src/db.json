@@ -1,0 +1,43 @@
+{
+    "user": [
+      {
+        "id": 1,
+        "name": "Arthur Bazilio de Moraes",
+        "password": "teste@123@321",
+        "email": "arthurbazzz@gmail.com",
+        "cep": "31650680",
+        "rua": "Sergio Felicio da Silva"
+      }
+    ],
+    "posts": [
+      {
+        "id": 1,
+        "title": "O que é JSON-Server?",
+        "author": "Maria",
+        "userId": 1
+      },
+      {
+        "id": 2,
+        "title": "Primeiros passos com React",
+        "author": "João",
+        "userId": 1
+      }
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "body": "Ótimo artigo, muito útil!",
+        "postId": 1
+      },
+      {
+        "id": 2,
+        "body": "Não entendi a parte sobre 'middlewares'.",
+        "postId": 1
+      },
+      {
+        "id": 3,
+        "body": "Parabéns pelo tutorial!",
+        "postId": 2
+      }
+    ]
+  }
